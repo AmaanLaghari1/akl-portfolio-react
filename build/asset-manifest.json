@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "./static/css/main.65f67fea.css",
+    "main.js": "./static/js/main.d68b91b3.js",
+    "static/media/Travel.PNG": "./static/media/Travel.5587ed9973fde3bafe99.PNG",
+    "static/media/Tradistans.PNG": "./static/media/Tradistans.883cd2b62eea12cd19b1.PNG",
+    "static/media/Netflix.PNG": "./static/media/Netflix.f2042d8a419a97e88e62.PNG",
+    "static/media/Sasta_Bazaar.PNG": "./static/media/Sasta_Bazaar.4aadfcd636339f66557c.PNG",
+    "static/media/news-blogger-app-thumbnail.PNG": "./static/media/news-blogger-app-thumbnail.be023d08bd16f648cc38.PNG",
+    "static/media/my-img.png": "./static/media/my-img.90834a3cfa447ee2a10a.png",
+    "static/media/developer3.jpg": "./static/media/developer3.a92c41b851977e4abd99.jpg",
+    "static/media/akl-software-dev.pdf": "./static/media/akl-software-dev.50ef4e49029f8bc44e82.pdf",
+    "static/media/developer.jpg": "./static/media/developer.4246ca05deefe1d70bb5.jpg",
+    "static/media/developer2.jpeg": "./static/media/developer2.1c4e9f85988387e98986.jpeg",
+    "index.html": "./index.html",
+    "main.65f67fea.css.map": "./static/css/main.65f67fea.css.map",
+    "main.d68b91b3.js.map": "./static/js/main.d68b91b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.65f67fea.css",
+    "static/js/main.d68b91b3.js"
+  ]
+}

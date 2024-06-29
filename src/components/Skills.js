@@ -42,6 +42,21 @@ const Skills = props => {
             level: '85%',
             class: 'warning'
         },
+        {
+            name: 'Laravel',
+            level: '75%',
+            class: 'warning'
+        },
+        {
+            name: 'OOP',
+            level: '85%',
+            class: 'info'
+        },
+        {
+            name: 'AJAX',
+            level: '90%',
+            class: 'dark'
+        },
     ]
     return (
         <section id="Expertise" className="container-fluid d-flex align-items-center" style={{minHeight: "100vh"}}>

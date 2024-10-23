@@ -3,14 +3,9 @@ import React from "react";
 const Skills = props => {
     let skillSet = [
         {
-            name: 'HTML5',
-            level: '95%',
+            name: 'HTML5 and CSS',
+            level: '90%',
             class: 'danger'
-        },
-        {
-            name: 'CSS4',
-            level: '75%',
-            class: 'primary'
         },
         {
             name: 'JavaScript',
@@ -18,29 +13,54 @@ const Skills = props => {
             class: 'warning'
         },
         {
-            name: 'Bootstrap5',
+            name: 'jQuery and Bootstrap5',
             level: '90%',
             class: 'secondary'
         },
         {
-            name: 'jQuery',
-            level: '80%',
-            class: 'success'
-        },
-        {
             name: 'React',
-            level: '70%',
+            level: '75%',
             class: 'info'
         },
         {
             name: 'PHP',
-            level: '75%',
+            level: '90%',
             class: 'dark'
         },
         {
-            name: 'MySQL',
+            name: 'MySQL and MongoDB',
             level: '85%',
             class: 'warning'
+        },
+        {
+            name: 'Laravel',
+            level: '80%',
+            class: 'dark'
+        },
+        {
+            name: 'NodeJS and Express',
+            level: '80%',
+            class: 'dark'
+        },
+        {
+            name: 'OOP concepts',
+            level: '90%',
+            class: 'primary'
+        },
+        {
+            name: 'AJAX',
+            level: '80%',
+            class: 'info'
+        },
+        {
+            name: 'REST API',
+            level: '80%',
+            class: 'success'
+        },
+        {
+            name: 'Version Control (GIT)',
+            level: '80%',
+            class: 'secondary'
         },
     ]
     return (
@@ -54,7 +74,7 @@ const Skills = props => {
                 <div className="col-12 col-sm-6 px-3" key={index}>
                     <h4 className="my-2">{item.name}</h4>
                     <div className="progress">
-                        <div style={{width: item.level}} className={"progress-bar progress-bar-striped progress-bar-animated bg-"+`${item.class}`} role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">{item.level}</div>
+                        <div style={{width: item.level}} className={"progress-bar progress-bar-striped progress-bar-animated bg-"+item.class} role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">{item.level}</div>
                     </div>
                 </div>
                 )

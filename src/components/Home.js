@@ -46,7 +46,7 @@ const Home = (props) => {
           <p className="fw-semibold lead">
             Software Developer specialized in Web Programming
           </p>
-          <a href={require('../images/akl-software-dev.pdf')} class="hero-btn text-light text-decoration-none" download="akl-resume">Download Resume <i style={{marginLeft: ".2rem"}} className="fa-regular fa-circle-down"></i></a>
+          <a href={require('../images/resume101420241334.pdf')} class="hero-btn text-light text-decoration-none" download="akl-resume">Download Resume <i style={{marginLeft: ".2rem"}} className="fa-regular fa-circle-down"></i></a>
         </Animate>
         </div>
         </section>

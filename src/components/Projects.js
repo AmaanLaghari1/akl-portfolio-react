@@ -13,6 +13,14 @@ import "swiper/css/navigation";
 const Projects = (props) => {
   let projects = [
     {
+      title: "Resume Builder",
+      desc: "Resume generating application capable of creating resumes for you.",
+      implementation:
+        "HTML5, CSS3, Bootstrap5, JavaScript, AJAX, PHP, MySQL, Laravel.",
+      thumbnail: require("../images/resume_builder_app_thumbnail.PNG"),
+      github: "https://github.com/AmaanLaghari1/cv-generator"
+    },
+    {
       title: "News Blogger",
       desc: "Blogging application capable of managing news blog posts.",
       implementation:
